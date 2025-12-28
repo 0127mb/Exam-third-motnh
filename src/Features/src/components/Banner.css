@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner img{
+    width: 44px;
+    height: 44px;
+}
+Body{
+    background-color: black;
+    color: white;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 100px;
+    background: #1A1D1F;
+border-radius: 8px;
+font-size: 32px;
+gap: 12px;
+margin-top: 10px;
+
+
+}

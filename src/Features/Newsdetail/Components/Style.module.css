@@ -1,0 +1,12 @@
+#named{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.adver{
+    position: absolute;
+    top: 200px;
+    left: 1400px;
+}

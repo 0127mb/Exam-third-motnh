@@ -1,0 +1,13 @@
+.img {
+  margin-top: 20px;
+}
+.divx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner{
+    position: absolute;
+    top: 140px;
+    left: 1400px;
+}

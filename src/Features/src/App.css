@@ -1,0 +1,67 @@
+.nav1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Filter p{
+  margin-top: 25px;
+  color: grey;
+  font-size: 17px;
+}
+.star1 {
+  transition: all 500ms ease-in-out;
+}
+
+.star1:hover {
+  filter: sepia(1) hue-rotate(10deg) saturate(5) brightness(8.2);
+  transform: scale(1.05);
+}
+.middle button{
+  background:  rgba(28, 146, 224, 1);
+  color: white;
+  border:  none;
+  display: flex;
+align-items: center;
+  width: 198px;
+height: 40px;
+top: 157px;
+left: 168px;
+gap: 10px;
+opacity: 1;
+border-radius: 8px;
+padding-top: 10px;
+padding-right: 34px;
+padding-bottom: 9px;
+padding-left: 34px;
+margin-top: 20px 
+;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  display: flex;
+  align-items: center;
+  width: 676px;
+  height: 52px;
+border: 1px solid grey;
+border-radius: 20px;
+/* margin-bottom: 10px; */
+}
+input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+}
+.Advert{
+  position: absolute;
+  top: 100px;
+  left: 760px;
+  cursor: pointer;
+}
+footer{
+  margin-top: 700px;
+}

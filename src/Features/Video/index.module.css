@@ -1,0 +1,165 @@
+.section5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.section5 a {
+  color: grey;
+}
+a:hover {
+  color: blue;
+
+  transition: all 300ms ease;
+}
+html {
+  color: white;
+  position: relative;
+}
+
+.main00 {
+  background: rgba(26, 29, 31, 1);
+  border: 1px solid rgba(31, 39, 42, 1);
+  width: 1026px;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  left: 240px;
+  border-radius: 12px;
+  border-width: 1px;
+}
+.grey {
+  color: grey;
+  width: 986px;
+  height: 198px;
+}
+.start {
+  background-color: black;
+  border: none;
+  outline: none;
+}
+.next {
+  width: 186px;
+  height: 50px;
+  top: 988px;
+  left: 32px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.buttons {
+  width: 1026px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid rgba(31, 39, 42, 1);
+
+  width: 326px;
+  margin-top: 25px;
+}
+
+.span {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  color: rgba(28, 146, 224, 1);
+  line-height: 130%;
+  letter-spacing: 0px;
+}
+.list4 li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.left {
+  position: absolute;
+  top: 90px;
+  left: 1500px;
+  width: 326px;
+  height: 413px;
+  border-radius: 8px;
+  border-width: 1px;
+  background: rgba(26, 29, 31, 1);
+  border: 1px solid rgba(31, 39, 42, 1);
+  margin-top: 50px;
+}
+.advert {
+  position: absolute;
+  top: 360px;
+  left: 1500px;
+}
+.hover:hover {
+  background: rgb(179, 225, 122);
+  border-radius: 10px;
+  transition: all 300ms ease;
+}
+.drujba {
+  margin-top: 220px;
+}
+.major {
+  display: flex;
+  align-items: center;
+  width: 271px;
+  height: 93px;
+  border-radius: 8px;
+  margin-left: 800px;
+  background: rgba(26, 29, 31, 1);
+  top: 4px;
+  left: 4px;
+  gap: 8px;
+  transition: all 500ms ease;
+}
+.major p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.major span {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: grey;
+}
+.noned {
+  visibility: hidden;
+  transition: all 500ms ease;
+}
+.devmindset {
+  /* display: none; */
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  justify-content: space-between;
+  position: absolute;
+  top: 600px;
+  padding: 0px 20px;
+}
+.p000 {
+  width: 515px;
+  height: 88px;
+  top: 366px;
+  left: 24px;
+  opacity: 1;
+}
+.none{
+  display: none;
+}

@@ -1,0 +1,79 @@
+#dovud {
+  width: 1026px;
+  height: 535px;
+  opacity: 1;
+  top: 160px;
+  left: 32px;
+  border-radius: 12px;
+  border-width: 1px;
+  background: rgba(26, 29, 31, 1);
+  border: 1px solid rgba(31, 39, 42, 1);
+  margin-top: 40px;
+  padding: 20px 20px;
+}
+.div {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  position: absolute;
+  left: 500px;
+  top: 440px;
+  width: 238px;
+  height: 50px;
+  opacity: 1;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+.div999 h1 {
+  width: 515px;
+  padding-left: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+
+  line-height: 130%;
+}
+.imgs {
+  padding-left: 20px;
+}
+.aboutbook {
+  margin-left: 20px;
+  margin-top: 67px;
+}
+.h4 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  width: 986px;
+  opacity: 1;
+}
+.grey {
+  width: 962px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: rgba(194, 196, 197, 1);
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.header5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
