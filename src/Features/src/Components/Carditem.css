@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+}
+.Item {
+  width: 1024px;
+  height: 184px;
+  border-radius: 12px;
+  border-width: 1px;
+  opacity: 1;
+  background: rgba(26, 29, 31, 1);
+  border: 1px solid rgba(31, 39, 42, 1);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.Item h2 {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  font-size: 24px;
+  width: 602px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 120%;
+  letter-spacing: 0%;
+  flex-shrink: 1;
+}
+.current {
+  color: rgba(130, 204, 39, 1);
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.discount {
+  color: rgba(247, 249, 250, 0.64);
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-decoration: line-through 2px solid red;
+}
+.purches {
+  position: absolute;
+  left: 177px;
+  top: 86px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  margin-left: 660px;
+}
+.result {
+  width: 88px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.minus {
+  background: rgba(220, 45, 45, 1);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.plus {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 1px;
+  opacity: 1;
+  left: 140px;
+  background: rgba(130, 204, 39, 1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+.remove {
+  position: absolute;
+  top: -6px;
+  left: 1000px;
+  color: rgba(247, 249, 250, 1);
+  background: rgba(21, 29, 33, 1);
+
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border-width: 1px;
+  opacity: 1;
+  border: none;
+}
+
+.img {
+  margin-top: 20px;
+}

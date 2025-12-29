@@ -1,0 +1,298 @@
+.Advert {
+  width: 326px;
+  height: 364px;
+  border-radius: 16px;
+  border-width: 1px;
+  background: rgba(11, 20, 24, 0.8);
+  border: 1px solid rgba(31, 39, 42, 1);
+}
+.Advert {
+  width: 360px;
+  background: linear-gradient(180deg, #0b0f14, #0a0d12);
+  border-radius: 14px;
+  padding: 18px;
+  color: #fff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* har bir qatorda text + narx */
+.Advert > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+/* jami qismi */
+.Advert > div:nth-child(5) {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* kupon qismi */
+.Advert .kupon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.Advert .kupon p {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* input */
+.Advert .kupon input {
+  height: 44px;
+  padding: 0 12px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.Advert .kupon input::placeholder {
+  color: #6b7280;
+}
+
+/* button */
+.Advert .kupon button {
+  height: 44px;
+  background: #2196f3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Advert .kupon button:hover {
+  background: #1e88e5;
+}
+.Advert {
+  width: 360px;
+  background: linear-gradient(180deg, #0b0f14, #0a0d12);
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* umumiy qator */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #cfd3d8;
+}
+
+/* jami */
+.total {
+  padding-top: 14px;
+  margin-top: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* kupon qismi */
+.kupon {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kupon label {
+  font-size: 13px;
+  color: #9aa0a6;
+}
+
+/* input */
+.kupon input {
+  height: 44px;
+  padding: 0 14px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.kupon input::placeholder {
+  color: #6b7280;
+}
+
+/* button */
+.kupon button {
+  height: 46px;
+  background: #2196f3;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kupon button:hover {
+  background: #1e88e5;
+}
+.Advert {
+  position: absolute;
+  top: 190px;
+  left: 1400px;
+}
+.btn {
+  width: 294px;
+  height: 50px;
+
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  gap: 10px;
+}
+.Advert2 {
+  position: absolute;
+  top: 590px;
+  left: 1400px;
+}
+.div90 {
+  margin-top: 20px;
+  padding: 20px 20px;
+  width: 909px;
+  height: 331px;
+  border-radius: 12px;
+  border-width: 1px;
+  background: rgba(26, 29, 31, 1);
+  border: 1px solid rgba(31, 39, 42, 1);
+}
+
+.input10 {
+  width: 420px;
+  height: 44px;
+  border-radius: 8px;
+  border-width: 1px;
+  background: rgba(19, 24, 28, 1);
+  border: 1px solid rgba(54, 57, 59, 1);
+}
+.grey {
+  color: grey;
+  margin-top: 28px;
+}
+.inp2 {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  height: 44px;
+  border-radius: 8px;
+  border-width: 1px;
+  background: rgba(19, 24, 28, 1);
+  border: 1px solid rgba(54, 57, 59, 1);
+}
+.numbered {
+  border: none;
+  outline: none;
+  background: none;
+}
+.under {
+  width: 66px;
+  height: 44px;
+  background: rgba(26, 29, 31, 1);
+  border: none;
+  outline: none;
+
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  gap: 4px;
+}
+.fill {
+  width: 420px;
+  height: 44px;
+  border-radius: 8px;
+  border-width: 1px;
+  background: rgba(19, 24, 28, 1);
+  border: 1px solid rgba(54, 57, 59, 1);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.canceled {
+  width: 201px;
+  height: 44px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 34px;
+  padding-bottom: 11px;
+  padding-left: 34px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+}
+.continue {
+  width: 201px;
+  height: 44px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 34px;
+  padding-bottom: 11px;
+  padding-left: 34px;
+  gap: 10px;
+  background: rgba(28, 146, 224, 1);
+  border: none;
+  outline: none;
+}
+.flex1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+.check {
+  position: absolute;
+  top: 170px;
+  left: 1400px;
+}
+.compilited {
+  margin-top: 200px;
+}
+.x {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 180px;
+}

@@ -72,8 +72,32 @@
   letter-spacing: 0%;
 }
 .header5 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.p {
+  margin-top: 40px;
+  margin-right: 40px;
+  color: grey;
+  font-size: 12px;
+}
+.books {
+  position: absolute;
+  top: 400px;
+  left: 1400px;
+}
+.Adver {
+  position: absolute;
+  top: 200px;
+  left: 1400px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  gap: 240px;
+  background: rgba(26, 29, 31, 1);
+  padding-top: 20px;
+  padding:0px 10px;
 }

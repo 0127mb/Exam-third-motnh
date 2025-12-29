@@ -217,7 +217,7 @@ export default function Main() {
       <div className={styled.pc}>
         <img src={live} alt="" className={styled.live} />
         <div className={styled.baground}>
-          <button>Ko‘rish</button>
+          <button onClick={()=> use('/live')}>Ko‘rish</button>
         </div>
       </div>
       <div className={styled.news}>

@@ -4,10 +4,17 @@ import ot from "../../assets/ot3.png";
 import Header from "../main/components/Header";
 import price from "../../assets/price.png";
 import info from "../../assets/Info.png";
-import data from "../src/component/Data";
+import data from "../Libary/component/Data";
 import { useNavigate } from "react-router-dom";
+import Footer from '../main/components/Footer'
 import css from "./Components/css.module.css";
 import Section from "./Components/Section";
+import styled from "../main/index.module.css";
+import horse from "../main/assets/hourse.png";
+import horse1 from "../main/assets/hourse1.png";
+import horse2 from "../main/assets/hourse2.png";
+import horse3 from "../main/assets/hourse3.png";
+import adver from '../../assets/Adver.png'
 export default function LIbarydetail() {
   const [liked, setliked] = useState(false);
   const navigate = useNavigate();
@@ -54,6 +61,46 @@ export default function LIbarydetail() {
           </p>
         </div>
       </div>
+      <img src={adver} alt="" className={css.Adver} />
+      <div className={`${styled.books} ${css.books}`}>
+        <div className={css.name}>
+          <h4>Tavfsiya</h4>
+          <a href="/Libary">Barchasi</a>
+        </div>
+        <li className={styled.list}>
+          <div className="together">
+            <img src={horse} alt="" />
+            <h4 className={styled.h5}>
+              {" "}
+              Bobbi Fisher shaxmatni o‘ynashni o‘rgataning
+            </h4>
+            <p className={css.p}>J.Silman</p>
+          </div>
+        </li>
+        <li className={styled.list}>
+          <div className="together">
+            <img src={horse1} alt="" />
+            <h4 className={styled.h5}> Mening tizimim</h4>
+            <p className={css.p}>J.Silman</p>
+          </div>
+        </li>{" "}
+        <li className={styled.list}>
+          <div className="together">
+            <img src={horse2} alt="" />
+            <h4 className={styled.h5}> Zurixdagi shaxmat musobaqasi</h4>
+            <p  className={css.p}>J.Silman</p>
+          </div>
+        </li>{" "}
+        <li className={styled.list}>
+          <div className="together">
+            <img src={horse3} alt="" />
+            <h4 className={styled.h5}> Mening esdaqolarlik o‘yinlarim</h4>
+            <p className={css.p}>J.Silman</p>
+          </div>
+        </li>
+      </div>
+
+  <Footer></Footer>
     </>
   );
 }

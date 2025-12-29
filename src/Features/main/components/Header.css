@@ -76,11 +76,80 @@ header:hover {
 .together {
   display: flex;
   gap: 10px;
-
 }
-.active{
+.active {
   text-decoration: underline 2px solid blue;
   color: white;
   transform: scale(120%);
   transition: all 500ms ease;
+}
+.nav9 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 676px;
+  height: 52px;
+  border-radius: 8px;
+  border-width: 1px;
+  background: rgba(21, 24, 26, 1);
+  border: 1px solid rgba(35, 38, 39, 1);
+}
+#clear {
+  width: 92px;
+  height: 36px;
+
+  opacity: 1;
+  top: 8px;
+  left: 585px;
+  border-radius: 4px;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.32);
+}
+#div99 {
+  width: 1026px;
+  height: 654px;
+  opacity: 1;
+  top: 160px;
+  left: 32px;
+  border-radius: 12px;
+  border-width: 1px;
+  border: 1px solid rgba(31, 39, 42, 1);
+}
+
+#iframe {
+  width: 986px;
+  height: 554px;
+  margin-top: 20px;
+}
+#h8 {
+  width: 986px;
+  height: 36px;
+
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.Erorload{
+  margin-top: 200px;
+  margin-left: 20px;
+  
+}
+.errorloads{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Erorload1{
+  margin-left: 200px;
 }

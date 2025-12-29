@@ -1,0 +1,119 @@
+.connect {
+  position: relative;
+  width: 1024px;
+  height: 457px;
+  border-radius: 12px;
+  border-width: 1px;
+  background: rgba(26, 29, 31, 1);
+  border: 1px solid rgba(31, 39, 42, 1);
+}
+.inp1 {
+  width: 296px;
+  height: 44px;
+  background: rgba(19, 24, 28, 1);
+
+  border-radius: 8px;
+  border-width: 1px;
+  border: 1px solid rgba(54, 57, 59, 1);
+}
+.grey {
+  color: grey;
+}
+.number {
+  display: flex;
+  align-items: center;
+  width: 296px;
+  height: 44px;
+  border-radius: 8px;
+  background: rgba(19, 24, 28, 1);
+  border: 1px solid rgba(54, 57, 59, 1);
+  border-width: 1px;
+}
+.white {
+  width: 66px;
+  height: 44px;
+  background: rgba(26, 29, 31, 1);
+  border: none;
+  outline: none;
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  gap: 4px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.inp {
+  width: 612px;
+  height: 128px;
+  border-radius: 12px;
+  border-width: 1px;
+  background: rgba(19, 24, 28, 1);
+  border: 1px solid rgba(69, 79, 84, 1);
+}
+.report {
+  margin-top: 20px;
+}
+.agree {
+  margin-top: 10px;
+  width: 325px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+.p {
+  width: 1093px;
+}
+.between {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.continue {
+  width: 180px;
+  height: 44px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-right: 34px;
+  padding-bottom: 11px;
+  padding-left: 34px;
+  gap: 10px;
+  background: rgba(28, 146, 224, 1);
+  border: none;
+  outline: none;
+}
+.href {
+  color: blue;
+}
+.ito {
+  margin-left: 700px;
+  position: absolute;
+  top: 70px;
+}
+.iframe {
+  width: 1026px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+.advert {
+  position: absolute;
+  top: 180px;
+  left: 1400px;
+}
+.portal {
+  margin-top: 200px;
+}
+.x {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(26, 29, 31, 1);
+  border: none;
+  outline: none;
+ position: absolute;
+ top: 130px;
+}

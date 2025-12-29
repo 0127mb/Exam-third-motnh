@@ -8,11 +8,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 export default function Header({ label }) {
   const use = useNavigate();
   const Location = useLocation();
-  // function cantrol() {
-  //   if (location.pathname === "/main") {
 
-  //   }
-  // }
   return (
     <header>
       <div className="box">
@@ -42,19 +38,25 @@ export default function Header({ label }) {
         >
           Kurslar
         </span>
-      <span
+        <span
           onClick={() => use("/Libary")}
           className={location.pathname === "/Libary" ? "active" : "disactive"}
         >
           Kutubxona
         </span>
-        <a href="">Bog‘lanish</a>
+        <span  onClick={() => use("/connect")}
+          className={location.pathname === "/connect" ? "active" : "disactive"}>Bog‘lanish</span>
       </nav>
 
       <div className="profile">
-        <img src={notification} alt="" className="notification" />
+        <div className="nav9">
+          <span onClick={()=>use('/header')}>🔎</span>
+          <span onClick={()=>use('/cart')}>🧺 </span>
+          <span>🔔</span>
+        </div>
+
         <div className="Jonny">
-          <h4>Jasurbek Pulatov</h4>
+          <span onClick={() => use("/profile")}> Jasurbek Pulatov</span>
           <img src={Johongir} alt="" />
         </div>
       </div>

@@ -348,3 +348,12 @@ span:hover{
   transform: scale(109%)
   translate3d(3deg);
 }
+.books2{
+  position: absolute;
+  top:200px;
+  left: 1400px;
+
+}.books3{
+  top: 640px;
+  left: 1430px;
+}

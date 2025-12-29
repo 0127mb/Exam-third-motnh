@@ -38,25 +38,26 @@ import Sertifikat from "./Features/Sertifikat/Sertifikat.jsx";
 import Report from "./Features/Roles/Report.jsx";
 import Rereportdetail from "./Features/Roles/Rereportdetail.jsx";
 import Send from "./Features/Roles/Send.jsx";
-import Libary from "./Features/src/Libary.jsx";
+import Libary from "./Features/Libary/Libary.jsx";
 import LIbarydetail from "./Features/Libarydetail/LIbarydetail.jsx";
-
+import Profile from "./Features/Profile/Profile.jsx";
+import Leave from "./Features/Profile/Components/Leave.jsx";
+import Restart1 from "./Features/Profile/Components/Restart1.jsx";
+import Update from "./Features/Profile/Components/Update.jsx";
+import Sms from "./Features/Profile/Components/Sms.jsx";
+import Edit from "./Features/Profile/Components/Edit.jsx";
+import Cart from "./Features/src/Cart.jsx";
+import FIll from "./Features/src/Components/FIll.jsx";
+import Compilited from "./Features/src/Components/Compilited.jsx";
+import Header3 from "./Features/main/components/Header3.jsx";
+import Connect from "./Features/Connect/Connect.jsx";
+import Succex from "./Features/Connect/Components/Succex.jsx";
+import LIve from "./Features/main/components/LIve.jsx";
+import Error404 from "./Features/Eror/Errorp404.jsx";
 const router = createBrowserRouter([
   {
     element: <Root />,
     children: [
-      { path: "/", element: <App /> },
-      { path: "/email", element: <Email /> },
-      { path: "/check", element: <Check /> },
-      { path: "/withemail", element: <Withemail /> },
-      { path: "/create", element: <Createpassword /> },
-      { path: "/enter", element: <Enter /> },
-      { path: "/enterwithemail", element: <Enterwithemail /> },
-      { path: "/restart", element: <Restart /> },
-      { path: "/build", element: <Build /> },
-      { path: "/buildwithemail", element: <Buildwithemail /> },
-      { path: "/pass", element: <Passwith /> },
-      { path: "/passemail", element: <Passwithemail /> },
       { path: "/main", element: <Asosiy /> },
       { path: "/reyting", element: <Reyting /> },
       { path: "/game", element: <Game /> },
@@ -76,15 +77,39 @@ const router = createBrowserRouter([
       { path: "for", element: <Rereportdetail></Rereportdetail> },
       { path: "send", element: <Send></Send> },
       { path: "/libary", element: <Libary></Libary> },
-      {  path:'/detailoflibary',element: <LIbarydetail></LIbarydetail>
-        }
+      { path: "/detailoflibary", element: <LIbarydetail></LIbarydetail> },
     ],
   },
   { path: "/login", element: <Login /> },
+  { path: "/", element: <App /> },
+  { path: "/email", element: <Email /> },
+  { path: "/check", element: <Check /> },
+  { path: "/withemail", element: <Withemail /> },
+  { path: "/create", element: <Createpassword /> },
+  { path: "/enter", element: <Enter /> },
+  { path: "/enterwithemail", element: <Enterwithemail /> },
+  { path: "/restart", element: <Restart /> },
+  { path: "/build", element: <Build /> },
+  { path: "/buildwithemail", element: <Buildwithemail /> },
+  { path: "/pass", element: <Passwith /> },
+  { path: "/passemail", element: <Passwithemail /> },
+  { path: "/edit", element: <Edit></Edit> },
+  { path: "/profile", element: <Profile></Profile> },
+  { path: "/leave", element: <Leave></Leave> },
+  { path: "/change", element: <Restart1></Restart1> },
+  { path: "/update", element: <Update></Update> },
+  { path: "/sms", element: <Sms></Sms> },
+  { path: "/cart", element: <Cart></Cart> },
+  { path: "/fill", element: <FIll></FIll> },
+  {path:"/compilited",element: <Compilited></Compilited>},
+  {path:'header',element:<Header3></Header3>},
+  {path:'/connect',element:<Connect></Connect>},
+  {path: '/succes',element:<Succex></Succex>},
+  {path: '/live',element:<LIve></LIve>},
+  {path: '*',element:<Error404></Error404>}
 ]);
-
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router}>
-    <App />
-  </RouterProvider>
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
 );
