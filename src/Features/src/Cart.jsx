@@ -4,13 +4,15 @@ import Data from "./Components/Data";
 import Header from "../main/components/Header";
 import Footer from "../main/components/Footer";
 import style from "./App.module.css";
-import adver from '../../assets/Adver.png'
-import Section from '../../Features/Courses/components/Section'
+import adver from "../../assets/Adver.png";
+import Section from "../../Features/Courses/components/Section";
+import { useNavigate } from "react-router-dom";
 export default function Cart() {
+  const usse = useNavigate();
   return (
     <>
       <Header></Header>
-        <Section></Section>
+      <Section></Section>
       <Carditem
         img={Data[0].img}
         name={Data[0].name}
@@ -38,40 +40,42 @@ export default function Cart() {
         button2={Data[2].minusbutton}
         remove={Data[2].deletebutton}
       ></Carditem>
-    
-   <div className={style.Advert}>
-  <div className={style.row}>
-    <span>To‘lov narxi:</span>
-    <span>1 560 000.00 UZS</span>
-  </div>
 
-  <div className={style.row}>
-    <span>Chegirma:</span>
-    <span>1 560 00.00 UZS (10%)</span>
-  </div>
+      <div className={style.Advert}>
+        <div className={style.row}>
+          <span>To‘lov narxi:</span>
+          <span>1 560 000.00 UZS</span>
+        </div>
 
-  <div className={style.row}>
-    <span>Kupon:</span>
-    <span>0 UZS</span>
-  </div>
+        <div className={style.row}>
+          <span>Chegirma:</span>
+          <span>1 560 00.00 UZS (10%)</span>
+        </div>
 
-  <div className={style.row}>
-    <span>Yetkazib berish</span>
-    <span>0 UZS</span>
-  </div>
+        <div className={style.row}>
+          <span>Kupon:</span>
+          <span>0 UZS</span>
+        </div>
 
-  <div className={`${style.row} ${style.total}`}>
-    <span>Jami:</span>
-    <span>1 404 000.00 UZS</span>
-  </div>
+        <div className={style.row}>
+          <span>Yetkazib berish</span>
+          <span>0 UZS</span>
+        </div>
 
-  <div className={style.kupon}>
-    <label>Kupon</label>
-    <input type="text" placeholder="Kupondagi kodni kiriting" />
-    <button className={style.btn}>Rasmiylashtirish</button>
-  </div>
-</div>
-<img src={adver} alt=""  className={style.Advert2}/>
+        <div className={`${style.row} ${style.total}`}>
+          <span>Jami:</span>
+          <span>1 404 000.00 UZS</span>
+        </div>
+
+        <div className={style.kupon}>
+          <label>Kupon</label>
+          <input type="text" placeholder="Kupondagi kodni kiriting" />
+          <button className={style.btn} onClick={() => usse("/fill")}>
+            Rasmiylashtirish
+          </button>
+        </div>
+      </div>
+      <img src={adver} alt="" className={style.Advert2} />
 
       <Footer></Footer>
     </>

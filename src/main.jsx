@@ -101,12 +101,12 @@ const router = createBrowserRouter([
   { path: "/sms", element: <Sms></Sms> },
   { path: "/cart", element: <Cart></Cart> },
   { path: "/fill", element: <FIll></FIll> },
-  {path:"/compilited",element: <Compilited></Compilited>},
-  {path:'header',element:<Header3></Header3>},
-  {path:'/connect',element:<Connect></Connect>},
-  {path: '/succes',element:<Succex></Succex>},
-  {path: '/live',element:<LIve></LIve>},
-  {path: '*',element:<Error404></Error404>}
+  { path: "/compilited", element: <Compilited></Compilited> },
+  { path: "header", element: <Header3></Header3> },
+  { path: "/connect", element: <Connect></Connect> },
+  { path: "/succes", element: <Succex></Succex> },
+  { path: "/live", element: <LIve></LIve> },
+  { path: "*", element: <Error404></Error404> },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>

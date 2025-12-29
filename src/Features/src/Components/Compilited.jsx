@@ -6,7 +6,7 @@ export default function Compilited() {
     const use = useNavigate()
   return (
 <>
-<img src={compilited} alt="" className={css.compilited} />
+<img src={compilited} alt="" className={css.compilited} onClick={()=>use('/main')} />
 <button className={css.x} onClick={()=>use(-1)}> X</button>
 
 </>

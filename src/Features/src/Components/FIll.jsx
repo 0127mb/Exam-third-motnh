@@ -4,7 +4,9 @@ import Section from './Section'
 import css from "../App.module.css";
 import check from '../../../assets/check.png'
 import Footer from "../../main/components/Footer";
+import { useNavigate } from "react-router-dom";
 export default function FIll() {
+  const navigate = useNavigate()
   return (
     <>
       <Header></Header>
@@ -43,8 +45,8 @@ export default function FIll() {
             </div>
           </div>
           <div className={css.flex1}>
-            <button className={css.canceled}>Bekor qilish</button>
-            <button className={css.continue}>Buyurtma berish</button>
+            <button className={css.canceled} onClick={()=>navigate(-1)}>Bekor qilish</button>
+            <button className={css.continue}  onClick={()=>navigate('/compilited')}>Buyurtma berish</button>
           </div>
         </div>
       </div>
